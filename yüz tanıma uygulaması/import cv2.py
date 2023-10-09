@@ -1,5 +1,5 @@
 import cv2
-import pyttsx3  # Sesli geri bildirim için pyttsx3 kütüphanesi kullanılıyor
+import pyttsx3  # Sesli geri bildirim için pyttsx3 kütüphanesi kullanılıyor.
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 cap = cv2.VideoCapture(0)
