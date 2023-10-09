@@ -15,7 +15,7 @@ while True:
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
         
-        # Yüz tespit edildiğinde sesli geri bildirim
+        # Yüz tespit edildiğinde sesli geri bildirim.
         engine.say("Bir yüz tespit edildi!")
         engine.runAndWait()
 
